@@ -1054,7 +1054,7 @@ p {
 .tag {
   display: inline-block;
   font-family: var(--sans);
-  font-size: .75rem;
+  font-size: .8rem;
   letter-spacing: .03em;
   padding: 2px 9px;
   border-radius: 999px;
@@ -2727,4 +2727,47 @@ h3,
 /* Header spans the full width so the logo shares the hero's left edge */
 .site-header .wrap-wide {
   max-width: none
+}
+
+/* Mobile touch ergonomics: footer links, social icons and legal links get 44 to 48px targets */
+a,
+button,
+summary,
+label,
+select {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation
+}
+
+@media (max-width:760px) {
+  .footer-list {
+    gap: 0
+  }
+
+  .footer-list a {
+    display: flex;
+    min-height: 44px
+  }
+
+  .socials {
+    gap: 12px
+  }
+
+  .socials a {
+    width: 48px;
+    height: 48px
+  }
+
+  .footer-legal-links {
+    gap: 0 14px
+  }
+
+  .footer-legal-link {
+    min-height: 44px
+  }
+
+  .footer-sub {
+    flex-direction: column;
+    gap: 6px
+  }
 }
