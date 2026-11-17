@@ -1,7 +1,7 @@
 # Active session: Rose Blvd Beauty Bar
 
 ## Current state
-Multi-page demo website built in the project root from Fresha and Instagram data captured 2026-11-17, with a whitespace pass applied after client-side review. Treatments category bar upgraded with desktop stepper controls and mouse wheel translation. Emil Kowalski design-engineered scroll reveal animations (750ms luxury ease-out) applied across every section and footer on all 10 pages with full progressive enhancement and reduced-motion support. apex_check 0 errors / 0 warnings; web-architect gate passes on all 10 pages; Playwright verified across all 10 pages. Local preview: `py -3.11 -m http.server 8092 --directory .`.
+Multi-page demo website built in the project root from Fresha and Instagram data captured 2026-11-17. Treatments category bar upgraded with desktop stepper controls and mouse wheel translation. Emil Kowalski design-engineered scroll reveal animations (750ms luxury ease-out) applied across every section and footer on all 10 pages with full progressive enhancement and reduced-motion support. Repository initialized and pushed to GitHub (`https://github.com/BabyVengeance/rose-blvd`). apex_check 0 errors / 0 warnings; web-architect gate passes on all 10 pages. Local preview: `py -3.11 -m http.server 8092 --directory .`.
 
 ## In progress
 - None.
