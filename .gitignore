@@ -1,0 +1,8 @@
+context/raw/
+context/**/*.pdf
+context/**/*.docx
+context/**/*.pptx
+context/**/*.zip
+node_modules/
+.DS_Store
+Thumbs.db
